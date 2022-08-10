@@ -1,7 +1,17 @@
+#website-background {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
 nav {
     display: block;
     width: 100%;
     border: 1px solid red;
+    height: 250px;
 }
 
 #title-container {
@@ -9,7 +19,7 @@ nav {
     justify-content: center;
 }
 
-img {
+#logo {
     height: 22%;
     width: 22%;
 }
@@ -20,10 +30,18 @@ img {
     font-size: 20px;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+}
+
 li {
     list-style: none;
-    line-height: 30px;
-    vertical-align: baseline;
+    line-height: 58px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 1px solid red;
 }
 
 /* everything above is responsible for the nav-bar */
