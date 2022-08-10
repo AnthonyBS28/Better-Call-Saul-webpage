@@ -1,0 +1,37 @@
+nav {
+    display: block;
+    width: 100%;
+    border: 1px solid red;
+}
+
+#title-container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 22%;
+    width: 22%;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    line-height: 30px;
+    vertical-align: baseline;
+}
+
+/* everything above is responsible for the nav-bar */
+
+h1 {
+    color: yellow;
+}
+
+#title-last-word {
+    color: red;
+}
