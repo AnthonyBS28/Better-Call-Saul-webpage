@@ -1,55 +1,21 @@
-#website-background {
-    position: fixed; 
-    top: 0; 
-    left: 0;
-    /* Preserve aspet ratio */
-    min-width: 100%;
-    min-height: 100%;
-}
-
 nav {
-    display: block;
     width: 100%;
+    height: 50px;
+    background-color: #FFC000;
     border: 1px solid red;
-    height: 250px;
 }
 
-#title-container {
-    display: flex;
-    justify-content: center;
-}
-
-#logo {
-    height: 22%;
-    width: 22%;
-}
-
-#nav-links {
-    display: flex;
+/* nav div {
+    width: 100%;
     justify-content: space-between;
-    font-size: 20px;
-}
+} */
 
 ul {
     display: flex;
     justify-content: space-between;
-    padding: 0%;
+    padding: 0% 30%;
 }
 
 li {
-    list-style: none;
-    line-height: 58px;
-    padding-left: 45px;
-    padding-right: 45px;
-    border: 1px solid red;
-}
-
-/* everything above is responsible for the nav-bar */
-
-h1 {
-    color: yellow;
-}
-
-#title-last-word {
-    color: red;
+    display: inline-block;
 }
