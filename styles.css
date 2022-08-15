@@ -5,10 +5,16 @@ body {
     background-size: 100%;
     backdrop-filter: blur(4px);
 }
-/* This is responsible for the background image */
-nav {
-    height: 5%;
+
+img {
+    justify-content: center;
     margin: 0 auto;
+}
+/* This is responsible for the image(s) and background image. */
+nav {
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid red;
 }
 ul {
     display: flex;
@@ -20,6 +26,29 @@ li {
 }
 /* Everything above is reponsible for the navigation bar. */
 main {
-    width: 100%;
-    height: 95%;
+    width: 0 auto;
+    height: 1225px;
+    border: 1px solid blue;
+    display: flex;
+}
+main section {
+    width: 49.99%;
+    height: 1224px;
+}
+#left {
+    /* width: 49.99%; */
+    border: 1px solid yellow;
+}
+section div {
+    height: 33.20%;
+    border: 1px solid orange;
+}
+#right {
+    /* width: 49.99%; */
+    border: 1px solid green;
+    display: flex;
+}
+/* Everything above is responsible for main, sections, and divs stylings. */
+h1 {
+    font-family: brush script mt, cursive;
 }
