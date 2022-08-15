@@ -41,7 +41,7 @@ main section {
 }
 section div {
     height: 33.20%;
-    border: 1px solid orange;
+    display: block;
 }
 #right {
     /* width: 49.99%; */
@@ -49,6 +49,20 @@ section div {
     display: flex;
 }
 /* Everything above is responsible for main, sections, and divs stylings. */
-h1 {
-    font-family: brush script mt, cursive;
+h1, p {
+    margin: auto;
+    text-align: center;
+    font-size: 55px;
 }
+h1 {
+    font: italic "Fira Sans", serif;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+.white-text-red-outline {
+    text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
+    color: white;
+}
+.white-text {
+    color: white;
+}
+/* Everything above is resonsible for text styling. */
