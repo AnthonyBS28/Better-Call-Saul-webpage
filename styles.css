@@ -14,7 +14,6 @@ img {
 nav {
     height: 100px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 ul {
     display: flex;
@@ -28,35 +27,42 @@ li {
 main {
     width: 0 auto;
     height: 1225px;
-    border: 1px solid blue;
     display: flex;
 }
 main section {
     width: 49.99%;
     height: 1224px;
 }
-#left {
-    /* width: 49.99%; */
-    border: 1px solid yellow;
-}
 section div {
     height: 33.20%;
     display: block;
 }
+div div {
+    padding-top: 210px;
+}
 #right {
-    /* width: 49.99%; */
-    border: 1px solid green;
     display: flex;
+    justify-content: end;
 }
 /* Everything above is responsible for main, sections, and divs stylings. */
 h1, p {
-    margin: auto;
+    margin: 0;
     text-align: center;
     font-size: 55px;
 }
 h1 {
     font: italic "Fira Sans", serif;
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+a {
+    font-size: 30px;
+    color: yellow;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
 }
 .white-text-red-outline {
     text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
