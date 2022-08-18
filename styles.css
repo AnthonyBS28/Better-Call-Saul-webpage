@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://www.breakingbad-locations.com/wp-content/uploads/2014/09/E11-Mandala.mkv_000549889.jpg");
+    background-size: 100%;
+    backdrop-filter: blur(4px);
+}
+
+img {
+    justify-content: center;
+    margin: 0 auto;
+}
+/* This is responsible for the image(s) and background image. */
+nav {
+    height: 50px;
+    margin: 0 auto;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 30%;
+}
+li {
+    display: inline-block;
+}
+/* Everything above is reponsible for the navigation bar. */
+main {
+    height: 1263px;
+    display: flex;
+}
+main section {
+    width: 49.99%;
+    height: 1263px;
+}
+section div {
+    height: 33.20%;
+    display: block;
+}
+div div {
+    padding-top: 210px;
+}
+#right {
+    display: flex;
+    justify-content: end;
+}
+/* Everything above is responsible for main, sections, and divs stylings. */
+h1, p {
+    margin: 0;
+    text-align: center;
+    font-size: 55px;
+}
+h1 {
+    font: italic "Fira Sans", serif;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+a {
+    font-size: 30px;
+    color: yellow;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+.white-text-red-outline {
+    text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
+    color: white;
+}
+.white-text {
+    color: white;
+}
+/* Everything above is resonsible for text styling. */
